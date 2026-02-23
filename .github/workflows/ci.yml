@@ -2,7 +2,7 @@ name: Testing github workflows
 on: push
 jobs:
   init:
-  runs-on: nbuntu-latest
+  runs-on: ubuntu-latest
 steps:
   - run: echo'Hello soda niang'
   - run: echo $HOSTNAME
