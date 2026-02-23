@@ -4,5 +4,5 @@ jobs:
   init:
   runs-on: nbuntu-latest
 steps:
-  - run: echo'Hello soda'
+  - run: echo'Hello soda niang'
   - run: echo $HOSTNAME
