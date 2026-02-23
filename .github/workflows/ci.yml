@@ -1,0 +1,8 @@
+name: Testing github workflows
+on: push
+jobs:
+  init:
+  runs-on: nbuntu-latest
+steps:
+  - run: echo'Hello soda'
+  - run: echo $HOSTNAME
